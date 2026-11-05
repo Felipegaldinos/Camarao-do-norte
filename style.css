@@ -476,7 +476,8 @@ h2 {
   margin: 0 auto;
 }
 .contact {
-  background: var(--ice);
+  background: var(--navy);
+  color: #fff;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 9%;
@@ -484,14 +485,22 @@ h2 {
 }
 .contact > div > p {
   font-size: 14px;
-  color: var(--muted);
+  color: #bfd5e2;
 }
 .contact small {
   display: block;
   font-size: 11px;
-  color: var(--muted);
+  color: #bfd5e2;
   max-width: 350px;
   margin-top: 30px;
+}
+.contact .eyebrow,
+.contact .inline-link {
+  color: #9dd5f0;
+}
+.contact .button:hover {
+  background: #fff;
+  color: var(--navy);
 }
 form label {
   display: block;
